@@ -1,0 +1,245 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<link href="css/main.css" rel="stylesheet">
+<link rel="stylesheet" href="css/lightbox.min.css">
+<!--wow-->
+	<link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/site.css">
+<!--	script truot ngang-->
+ <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js'>
+	
+	
+	</script>
+	<script  src="js/script.js"></script>
+    
+</head>
+	
+
+<script>
+// Set the date we're counting down to
+var countDownDate = new Date("sep 15, 2021 15:37:25").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get today's date and time
+  var now = new Date().getTime();
+    
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+    
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+  // Output the result in an element with id="demo"
+  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+    
+  // If the count down is over, write some text 
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "EXPIRED";
+  }
+}, 1000);
+</script>
+
+<body>
+	<div class="menungang fonttext">
+			<div class="logo"></div>
+				<div class="ndmenu">
+					
+					<form>
+						<div class="icon">
+						<img src="https://img.icons8.com/material-outlined/24/000000/search--v1.png"/>
+						</div>
+  						<input type="text" name="search" placeholder="Search.."></form>
+				<ul>
+					<li><a class="third after" href="#nd1"> Trang chủ </a></li>
+					<li><a class="third after" href="#nd2"> Giới thiệu </a></li>
+					<li><a class="third after" href="#nd3"> Điểm đến </a></li>
+					<li><a class="third after" href="#nd4"> Hình ảnh </a></li>
+					<li><a class="third after" href="#nd5"> Liên hệ </a></li>
+					
+				</ul>
+				</div>
+			</div>
+	<div class="background fonttext">
+		
+			
+		<div class="div" id="nd1"> 
+			<div class="head wow fadeInLeft"><center><div class="font" style="color: #c47664"><i>Time on Travel</i></div></center>
+			Tuổi trẻ này thì ngắn, thế giới thì rộng lớn bao la. Nên thay vì ngồi im và chờ cơ hội, bạn cần phải chạy thật nhanh để ngắm nhìn mọi thứ.
+		
+				<div class="start">Start Now</div>
+				<div class="dem" id="demo"></div>
+			</div>
+		
+				<div class="anh wow fadeInDown">
+			<img src="images/Hello Spring.png">
+			</div>
+<!--			đem nguoc-->
+		
+			
+		</div>
+<!--			trag 2-->
+			
+		<div class="div wow fadeInDown" id="nd2" >
+			<div class="text"> Chúng tôi sẽ đưa bạn đi du ngoạn, chiêm ngưỡng cảnh sắc tuyệt đẹp của non nước Việt Nam.<br> Mỗi điểm dừng chân sẽ mang đến cho bạn một khám phá mới, một trải nghiệm mới đầy thú vị.<br> Bạn sẽ được trải nghiệm những phong tục, tập quán khác nhau của đất nước từ nam ra bắc. <br>Có nhiều cảnh đẹp ngoạn mục của những ngọn núi và khung cảnh bãi biển thư giãn và thoải mái. <br> Nhiều thành phố kết hợp bí ẩn của phương Đông với sự lãng mạn của Pháp. <br>Năm danh lam thắng cảnh được UNESCO liệt kê là di sản văn hóa và tự nhiên của UNESCO.
+			</div>
+  			
+			<div class="anh2 wow fadeInUp">
+		<img src="images/Hiking in mountains.png">
+			</div>
+		
+	</div>
+	
+<!--	trang3-->
+		
+		<div class="div" id="nd3" >
+			<div class="text3">
+				<div class="head2">
+				<center><b> Bạn muốn khám phá nơi đâu?</b></center></div>
+			<form><input type="text2" name="Chọn điểm đến" placeholder="Chọn điểm đến"></input></form>
+			<p><hr color="#faa751" width="300px"><br>
+Khám phá điểm đến tiếp theo cho hành trình tuyệt vời của bạn. <br><b><i>Hai mươi năm về sau bạn sẽ hối hận về những gì bạn không làm hơn là những gì bạn làm.</i></b> Vậy nên hãy tháo dây, nhổ neo ra khỏi bến đỗ an toàn. Hãy để cánh buồm của bạn đón trọn lấy gió. Thám hiểm. Mơ mộng. Khám phá<br>
+</p>
+			</div>
+			
+	<div class="anh3">
+	<img src="images/Facebook desktop app, Mr_ Robot, Art and more… Weekly inspiration roundup!.gif">
+	
+	</div>
+	</div>
+<!--	trang 4-->
+	<div class="div" id="nd4" >
+		<div class="cover4">
+		<div class="anhtrang4">
+		<a class="example-image-link" href="images/dalat.jpg" data-lightbox="example-set" data-title="Thành phố Đà Lạt."><img class="example-image" src="images/dalat.jpg" alt="" /></a>
+		</div>
+		<div class="anhtrang4">
+		<a class="example-image-link" href="images/Artboar.png" data-lightbox="example-set" data-title="Cánh đồng lúa Mộc Châu"><img class="example-image" src="images/Artboar.png" alt="" /></a>
+		</div>
+		<div class="anhtrang4">
+		<a class="example-image-link" href="images/Art.png" data-lightbox="example-set" data-title="Bình minh lên, mặt nước ở vịnh Hòn Thiêng (Phan Rang, Ninh Thuận) như được dát vàng."><img class="example-image" src="images/Art.png" alt="" /></a>
+		</div>
+		<div class="anhtrang4">
+		<a class="example-image-link" href="images/Artboard 1.png" data-lightbox="example-set" data-title="Hòn Yến với vẻ đẹp chinh phục tâm hồn du khách"><img class="example-image" src="images/Artboard 1.png" alt="" /></a>
+		</div>
+		</div>
+</div>
+	
+	
+<!--	script lightbox-->
+	
+	
+	<script>
+function openModal() {
+  document.getElementById("myModal").style.display = "block";
+}
+
+function closeModal() {
+  document.getElementById("myModal").style.display = "none";
+}
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+    
+	
+	
+	
+	
+
+<!--	trang 5-->
+	
+		<div class="div" id="nd5">
+			<div class="text4"><h2><center> Liên hệ </center></h2><br>
+				Để có thể đáp ứng được các yêu cầu và các ý kiến đóng góp của quý vị một cách<br>nhanh chóng xin vui lòng liên hệ.
+				<br>
+				
+				<form>
+				<input type="text3" name="Họ và Tên" placeholder="Họ và Tên"></input>
+				<input type="text3" name="Email" placeholder="Email"></input>
+				<input type="text3" name="Điện thoại" placeholder="Điện thoại"></input>
+				<input type="text3" name="Nội dung" placeholder="Nội dung"></input>
+<br>
+				<input type="reset" value=" Gửi"></input>
+				</form>
+		
+<br>
+				 <b>Chi nhánh<br></b>
+					TRỤ SỞ CHÍNH<br>
+					190 Pasteur, P. Võ Thị Sáu, Q.3, Tp. Hồ Chí Minh, Việt Nam<br>
+					Tel: (84-28) 38 668 999 (20 lines)<br>
+					Fax: (84-28) 38 29 9142<br>
+					Email: info@vietravel.com<br>
+
+			</div>
+			<div class="anh4 wow bounceInLeft"></div>
+	
+	
+	</div>
+		
+
+		
+		
+<!--		lightbox-->
+		 <script src="js/lightbox-plus-jquery.min.js"></script>
+<!--script wow-->
+	 <script src="js/wow.js"></script>
+  <script>
+    wow = new WOW(
+      {
+        animateClass: 'animated',
+        offset:       100,
+        callback:     function(box) {
+          console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+        }
+      }
+    );
+    wow.init();
+    document.getElementById('moar').onclick = function() {
+      var section = document.createElement('section');
+      section.className = 'section--purple wow fadeInDown';
+      this.parentNode.insertBefore(section, this);
+    };
+  </script>
+			</div>
+
+	
+</body>
+
+</html>
